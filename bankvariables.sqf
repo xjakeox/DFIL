@@ -1,7 +1,7 @@
 if(debug)then{['Mishy', 999999] call INV_AddInvItem};
-StartMishy                = 200000;
-maxcopbonus		 = 30000;
-maxcivbonus 	 	 = 30000;
+StartMishy                = 25000;
+maxcopbonus		 = 3000;
+maxcivbonus 	 	 = 3000;
 robb_timeSperre          = 1200;   
 local_useBankPossible    = true;  
 maxinsafe                = 150000;
