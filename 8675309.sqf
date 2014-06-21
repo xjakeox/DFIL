@@ -1,7 +1,7 @@
 
 
-developer = ["24638022"];
-admin = ["31362694"];
+developer = [""];
+admin = ["24638022","31362694"];
 moderator = [""];
 donatorlevel4 = [""];
 
