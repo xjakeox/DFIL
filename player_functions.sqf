@@ -39,7 +39,7 @@ player_escape_menu_check = { _this spawn {
 };};
 
 TLU_AddPermanentActions = {
-	player addAction ["<t color='#FF0000'>TLL Phone</t>", "handy.sqf", [], 5555, false, false, "", ""];
+	player addAction ["<t color='#FF0000'>DFIL Phone</t>", "handy.sqf", [], 5555, false, false, "", ""];
 	};
 
 
