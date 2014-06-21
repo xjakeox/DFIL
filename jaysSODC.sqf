@@ -1,0 +1,1 @@
+﻿onPlayerDisconnected { execVM "Scripts\statSave\jaysantiglitch.sqf" };

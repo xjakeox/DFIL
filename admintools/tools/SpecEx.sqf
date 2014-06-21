@@ -1,0 +1,1 @@
+player addaction [("<t color=""#0074E8"">" + ("ExitSpec") +"</t>"), [["expression", "selecteditem = 'exitscript';"]],
