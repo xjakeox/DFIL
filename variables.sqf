@@ -2,37 +2,37 @@ donatorcashbonus = 0;
 admincashbonus = 0;
 if ((getPlayerUID player) in donatorlevel1) then
 {
-	donatorcashbonus = 2000;
+	donatorcashbonus = 300;
 };
 if ((getPlayerUID player) in donatorlevel2) then
 {
-	donatorcashbonus = 4000;
+	donatorcashbonus = 500;
 };
 if ((getPlayerUID player) in donatorlevel3) then
 {
-	donatorcashbonus = 8000;
+	donatorcashbonus = 750;
 };
 if ((getPlayerUID player) in donatorlevel4) then
 {
-	donatorcashbonus = 10000;
+	donatorcashbonus = 1000;
 };
 if ((getPlayerUID player) in mod) then
 {
-	admincashbonus = 10000;
+	admincashbonus = 0;
 };
 if ((getPlayerUID player) in admin) then
 {
-	admincashbonus = 15000;
+	admincashbonus = 0;
 };
 if ((getPlayerUID player) in superadmin) then
 {
-	admincashbonus = 20000;
+	admincashbonus = 0;
 };
 //=================================================================================
-INV_smscost		 = 100;
-add_civmoney		 = 4500+donatorcashbonus+admincashbonus;
-add_copmoney		 = 5500+donatorcashbonus+admincashbonus;
-add_workplace		 = 3000;
+INV_smscost		 = 10;
+add_civmoney		 = 1000+donatorcashbonus+admincashbonus;
+add_copmoney		 = 1750+donatorcashbonus+admincashbonus;
+add_workplace		 = 750;
 copchoprespawntime       = 120;
 CopWaffenAvailable       = 0;							
 CopIsInPrison            = false;					
@@ -58,7 +58,7 @@ chiefSteuern             = 0;
 chiefBekommtSteuern      = 75;				
 eigene_zeit              = time;				
 money_limit              = 25000000;
-bank_limit		 = 25000000; 										
+bank_limit		 = 250000000; 										
 wantedbonus              = 500;         														
 StunActiveTime           = 0;  
 StunTimePerHit		 = 15; 
@@ -72,8 +72,8 @@ keyblock		 = false;
 maxboars		 = 35;
 maxrabbits		 = 35;
 maxmanitime		 = 2400;
-powerrestorecost	 = 10000;
-impoundpay		 = 3000;
+powerrestorecost	 = 1000;
+impoundpay		 = 500;
 noholster		 = false;
 MGcost			 = 10000;
 PKcost			 = 10000;
@@ -109,21 +109,21 @@ motdwaittime = 120;
 //===============Cop Patrol==================
 pmissionactive = false;
 patrolwaittime = false;
-patrolmoneyperkm = 4.0;  // 1 would be equal to $3,000 for 1KM
+patrolmoneyperkm = 1.0;  // 1 would be equal to $3,000 for 1KM
 pmissionactive1 = false;
 patrolwaittime1 = false;
-patrolmoneyperkm1 = 5.0;  // 1 would be equal to $3,000 for 1KM
+patrolmoneyperkm1 = 1.0;  // 1 would be equal to $3,000 for 1KM
 //=========government convoy=============
-govconvoybonus 		 = 75000;
-govconvoythiefbonus	 = 100000;
-convoyrespawntime        = 30;  // 30 minutes
+govconvoybonus 		 = 7500;
+govconvoythiefbonus	 = 7500;
+convoyrespawntime        = 45;  // 45 minutes
 moneyintruck 		 = true; //dont change
 convoyguardsdead		= false;
 //convoywinner        = convoywinners;
 //===== Gas station robbing
-maxstationmoney = 25000;
-wantedamountforrobbing = 20000;
-maxbarmoney = 25000;
+maxstationmoney = 5000;
+wantedamountforrobbing = 3000;
+maxbarmoney = 5000;
 if(debug)then{drugstockinc = 6;druguserate = 20};
 //==============================PETROL/OIL=========================================
 petroluse                = 3;
@@ -140,8 +140,8 @@ hammerdur=100;
 hammermax=4;
 working=false;
 //===============================GANGS=============================================
-gangincome		 = 2500;
-gangcreatecost		 = 100000;
+gangincome		 = 1500;
+gangcreatecost		 = 20000;
 gangdeltime		 = 900;
 gangsarray		 = [];
 gangmember		 = false;
@@ -281,14 +281,14 @@ if(debug)then{suicidepenalty = 0;respawntimeinc = 0;killedplayerinc = 0};
 isMayor                  = false;      	
 WahlArray                = [];         
 MayorNumber              = -1;         	
-MayorExtraPay            = 3000;       							
+MayorExtraPay            = 300;       							
 
 for [{_i=0}, {_i < playercount}, {_i=_i+1}] do {WahlArray = WahlArray + [ [] ];};												
 
 ischief                  = false;	
 WahlArrayc               = [];		
 chiefNumber              = -1;		
-chiefExtraPay            = 5000;	
+chiefExtraPay            = 500;	
 
 for [{_i=0}, {_i < playercount}, {_i=_i+1}] do {WahlArrayc = WahlArrayc + [ [] ];};
 
@@ -316,14 +316,14 @@ atmscriptrunning = 0;
 shopactivescript = 0;							
 deadcam_wechsel_dauer    = 5;													
 deadcam_kameraposition   = round(random (count deadcam_position_array - 1));	
-slave_cost               = 40000;
-slavemoneyprosekunde	 = 5000;
+slave_cost               = 7500;
+slavemoneyprosekunde	 = 500;
 maxslave                 = 2;
 copslaveallowed          = 0;
 localslave               = 0;
 localslavecounter        = 0;
-huren_cost               = 20000;  								
-hoemoneyprosekunde       = 5000;   							
+huren_cost               = 7500;  								
+hoemoneyprosekunde       = 500;   							
 maxhuren                 = 3;     			
 copworkerallowed         = 0;     										
 pimpactive               = 0;			
