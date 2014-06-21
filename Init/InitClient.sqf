@@ -21,7 +21,6 @@
 [] execVM "rifleControl.sqf";
 [] execVM "tluphone\tluphone.sqf";
 [] execVM "RAV_lifter\InitMan.sqf";
-["handy", 1] call INV_AddInvItem;
 CodeBroadcast = [];
 "CodeBroadcast" addPublicVariableEventHandler
 {
@@ -71,7 +70,6 @@ switch (PlayerTeam) do
 	{
 	if(!debug)then{["civintro"] execVM "introcam.sqf";};
 	[] execVM "actions\civactions.sqf";
-	["handy", 1] call INV_AddInvItem;
 	onKeyPress = compile preprocessFile "actions\CivonKeyPress.sqf";
 	waituntil {!(IsNull (findDisplay 46))};
 	(findDisplay 46) displaySetEventHandler ["KeyDown", "_this call onKeyPress"];
@@ -81,7 +79,6 @@ switch (PlayerTeam) do
 	{
 	if(!debug)then{["copintro"] execVM "introcam.sqf";};
 	[] execVM "actions\copactions.sqf";
-	["handy", 1] call INV_AddInvItem;
 	onKeyPress = compile preprocessFile "actions\CoponKeyPress.sqf";
 	waituntil {!(IsNull (findDisplay 46))};
 	(findDisplay 46) displaySetEventHandler ["KeyDown", "_this call onKeyPress"];	
@@ -91,7 +88,6 @@ switch (PlayerTeam) do
 	{
 	if(!debug)then{["govintro"] execVM "introcam.sqf";};
 	[] execVM "actions\govactions.sqf";
-	["handy", 1] call INV_AddInvItem;
 	onKeyPress = compile preprocessFile "actions\govonKeyPress.sqf";
 	waituntil {!(IsNull (findDisplay 46))};
 	(findDisplay 46) displaySetEventHandler ["KeyDown", "_this call onKeyPress"];
