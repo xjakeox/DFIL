@@ -243,8 +243,8 @@ class Mission
 	randomSeed=13041024;
 	class Intel
 	{
-		briefingName="KUTAC Island Life (Emita)";
-		briefingDescription="Welcome To KuTac Island Life, Have Fun";
+		briefingName="Dark Fraction Island Life v1.0";
+		briefingDescription="Welcome To Dark Fraction Island Life, Have a Great Time";
 		resistanceEast=1;
 		startWeather=0.39999998;
 		forecastWeather=0.25;
@@ -41628,7 +41628,7 @@ class Mission
 		{
 			position[]={1405.647,4.1295543,4845.2402};
 			name="pub2";
-			text="KUTAC Community Bar";
+			text="Dark Fraction Community Bar";
 			type="City";
 			colorName="ColorGreen";
 		};
@@ -43235,7 +43235,7 @@ class Mission
 		{
 			position[]={-991.46588,7.9774184,5751.7178};
 			name="Website";
-			text="www.Kutactical.com";
+			text="www.darkfraction.net";
 			type="mil_marker";
 			colorName="ColorBlue";
 			a=1e-028;
@@ -43245,7 +43245,7 @@ class Mission
 		{
 			position[]={-987.92969,11.515562,5642.3091};
 			name="Teamspeak";
-			text="TS.KUTACTICAL.COM";
+			text="5.39.93.223";
 			type="mil_marker";
 			a=1e-023;
 			b=1e-022;

@@ -1,7 +1,7 @@
 ////////////////////////////////////
 ////			         //
-//      Copyright © TCG         //
-//www.tcgaming.enjin.com       //
+//      Copyright © DF        //
+//www.darkfraction.net     //
 ////////////////////////////////
 [] execVM "anti-hack.sqf";
 [] execVM "antidebug.sqf";

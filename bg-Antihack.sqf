@@ -19,8 +19,8 @@ _Kick Globalchat "%1 Got kicked for hacking report this to an Admin!",
 }
 //Welcome to Admins
 {
-	If _Admin Hint "Welcome to KuTac Island Life, Admin",
-	If _Admin Hint "Welcome Jeff or Kraken, you're an admin!",
+	If _Admin Hint "Welcome to Dark Fraction Island Life, Admin",
+	If _Admin Hint "Welcome Viper, Jake, Nate, or cradboard, you're an admin!",
 }
 //wen an admin are checking logs
 {

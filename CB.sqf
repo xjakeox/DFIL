@@ -1,8 +1,8 @@
 /////////////////////////////////
 //Script created by Tiinusen//
 //Last Modified by Tiinusen //
-//      Copyright © TCG       //
-//www.tcgaming.enjin.com//
+//      Copyright © DF      //
+//www.darkfraction.net      //
 ////////////////////////////////
 ///-SCRIPT INFORMATION-//
 //Runs the Script. with the parameters

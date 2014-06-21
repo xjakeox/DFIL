@@ -1,7 +1,7 @@
 ////////////////////////////////////
 ////			         //
-//      Copyright © TCG         //
-//www.tcgaming.enjin.com       //
+//      Copyright © DF        //
+//www.darkfraction.net     //
 ////////////////////////////////
 
 _house  = ((_this select 3) select 0);

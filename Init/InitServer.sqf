@@ -1,7 +1,7 @@
 ////////////////////////////////////
 ////			         //
-//      Copyright © TCG         //
-//www.tcgaming.enjin.com       //
+//      Copyright © DF        //
+//www.darkfraction.net     //
 ////////////////////////////////
 private ["_s"];
 ["serverloop1"] execVM "serverscripts\commonloop.sqf";

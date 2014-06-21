@@ -2,7 +2,7 @@
 	Filename: markermaker.sqf
 	By; 
 	Desc: If player is in the UID var's then will create a marker.
-	Made for KuTac Island Life
+	Made for Dark Fraction Island Life
 */
 //================DONATOR MARKERS===============
 if ((GetplayerUID player) in vipdonators) then

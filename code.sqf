@@ -1,7 +1,7 @@
 ////////////////////////////////////
 ////			         //
-//      Copyright © TCG         //
-//www.tcgaming.enjin.com       //
+//      Copyright © DF        //
+//www.darkfraction.net     //
 ////////////////////////////////
 
 _cell  = ((_this select 3) select 0);

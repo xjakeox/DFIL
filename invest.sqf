@@ -1,7 +1,7 @@
 ////////////////////////////////////
 ////			         //
-//      Copyright © TCG         //
-//www.tcgaming.enjin.com       //
+//      Copyright © DF        //
+//www.darkfraction.net     //
 ////////////////////////////////
 _killer 		= _this select 0;
 _killedbyvehicle 	= _this select 1;

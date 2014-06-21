@@ -4,7 +4,7 @@ playMusic "Intro";
 _text = [
 
 
-"<t underline='false' color='#00FFFF'>www.kutactical.com</t><br/>",
+"<t underline='false' color='#00FFFF'>www.darkfraction.net</t><br/>",
 
 "<t underline='true' color='#00FFFF'>ACCOUNT STATS NOT LOADED?</t><br/>
 If you have just joined the server and your stats have not loaded, You have 2 Minutes to relog or they will be lost forever.",
@@ -13,8 +13,8 @@ If you have just joined the server and your stats have not loaded, You have 2 Mi
 Date Not Set",
 
 "<t underline='true' color='#00FFFF'>Contact</t><br />
-TS3: TS.KUTACTICAL.COM<br />
-Welcome to KuTac Island Life.<br />
+TS3: 5.39.93.223<br />
+Welcome to Dark Fraction Island Life.<br />
 <br />
 Please visit the forums to fill out bug reports or post suggestions and to keep up to date on the rules.
 <br />
@@ -29,4 +29,4 @@ _t = _t + [(parseText _x)];
 } foreach _text;
 _text = _t;
 
-"KuTac Island Life!" hintC _text;
+"Dark Fraction Island Life!" hintC _text;

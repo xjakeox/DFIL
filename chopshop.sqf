@@ -3,7 +3,7 @@
 	Filename: chopshop.sqf
 	Desc: Finds closest vehicle to NPC and if is in cop car array will sell for cash
 	
-	Made for KuTac Island Life
+	Made for Dark Fraction Island Life
 */
 
 Private ["_npc","_copcararray","_dice1","_dice","_money","_rmoney","_nearestobject","_badday","_sold"];

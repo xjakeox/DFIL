@@ -1,7 +1,7 @@
 ////////////////////////////////////
 //			         //
-//      Copyright © TCG         //
-//www.tcgaming.enjin.com       //
+//      Copyright © DF        //
+//www.darkfraction.net     //
 ////////////////////////////////
 
 
@@ -120,5 +120,5 @@ publicvariable "gamerz971HDisLoveHeIsLife";
 };
 
 // JayF8514's Welcome / Introduction!
-(format["server globalchat ""%1 Has Joined The Game! Welcome to KuTac Island Life."";", name player]) call broadcast;
+(format["server globalchat ""%1 Has Joined The Game! Welcome to Dark Fraction Island Life."";", name player]) call broadcast;
  

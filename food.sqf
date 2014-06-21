@@ -1,7 +1,7 @@
 ////////////////////////////////////
 ////	Modified		 //
-//      Copyright © TCG         //
-//www.tcgaming.enjin.com       //
+//      Copyright © DF        //
+//www.darkfraction.net     //
 ////////////////////////////////
 /// Intelectual Property
 

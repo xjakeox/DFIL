@@ -1,8 +1,8 @@
 ////////////////////////////////////
 ////			         //
-//      Copyright © TCG         //
+//      Copyright © DF        //
 
-//www.tcgaming.enjin.com       //
+//www.darkfraction.net     //
 ////////////////////////////////
 ///-SCRIPT INFORMATION-//
 //Initializing Profile Default
@@ -39,17 +39,17 @@ br/>
 
 player createDiaryRecord ["bugs", 
 [
-"KUTAC Island life", 
+"Dark Fraction Island life", 
 "
 <br/>
-KuTac Island Life's website may be found at<br/>
+Dark Fraction's website may be found at<br/>
 
-www.kutactical.com<br/>
+www.darkfraction.net<br/>
 <br/>
 <br/>
 Registering gives you access to our discussion forums<br/>
 
-kutactical.com
+www.darkfraction.net
 <br/>
 <br/>
 Please report any bugs with the mission at<br/>
@@ -58,7 +58,7 @@ Our Team Speak
 <br/>
 <br/>
 Join your fellow players on Team Speak 3 at<br/>
-TS.KUTACTICAL.COM<br/>
+5.39.93.223<br/>
 "
 ]
 ];
@@ -70,16 +70,16 @@ player createDiaryRecord ["rules",
 [
 "Commonly Broken Server Rules", 
 "
-KuTac Island Life<br/>
+Dark Fraction Island Life<br/>
 <br/>
 <br/>
 A complete list of enforced server rules can be found online at<br/>
 
-www.kutactical.com/Rules<br/>
+www.darkfraction.net/Rules<br/>
 <br/>
 There are no excuses for not reading these rules, and all rule-breakers will be dealt with accordingly--Administrators/Moderators will always have final say<br/>
 <br/>
-All COPs and ESU are REQUIRED to be on Our Team Speak TS.KUTACTICAL.COM<br/>
+All COPs and ESU are REQUIRED to be on Our Team Speak 5.39.93.223<br/>
 <br/>
 Don't be a stupid troll, don't drive like shit for no reason, don't evade unless you really think its worth it... because you may find the jail times and tickets just got RIL. To balance it out, cops are really going to have to start driving carefully unless on a call or they are going to find themselves getting fired immediately by IA or any admin that sees them dicking around.<br/>
 <br/>
@@ -121,7 +121,7 @@ Don't be a stupid troll, don't drive like shit for no reason, don't evade unless
 <br/> 
 -Civilian aircraft are never permitted land inside city limits -except on helipads or runways- unless given permission by the police chief, to land without permission inside city limits is a felony.<br/>  
 <br/>
-Make sure you read all the rules at newlegacygaming.com<br/>
+Make sure you read all the rules at darkfraction.net<br/>
 "
 ]
 ];
@@ -324,7 +324,7 @@ player createDiaryRecord ["changelog",
 
 
 
---KUTAC Emita<br/>
+--Dark Fraction Emita<br/>
 <br/>
 
 "

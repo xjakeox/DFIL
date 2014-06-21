@@ -1,10 +1,10 @@
 LANGUAGE, English,
-STRM_briefing_name,KUTAC Island life (Emita),
-STRM_mission_description,www.kutactical.com - Serious Role-Play,
+STRM_briefing_name,Dark Fraction Island life v1.0,
+STRM_mission_description,www.darkfraction.net - Semi-Serious Role-Play,
 STRS_hints_vehicle_information,VEHICLE INFORMATION:\n\nName: %4\nType: %1\ndirection: %2°\nHeight ASL: %3m\nDriver: %5\nFree Cargo: %6\nlength: %7m,
 STRS_functions_crimelog_msg12,Speeding,
-STRS_anfang_laden,Joining KuTac Island Life... \nPlease Wait.,
-STRS_anfang_02," ""Welcome To KuTac Island Life!\n",
+STRS_anfang_laden,Joining Dark Fraction Island Life... \nPlease Wait.,
+STRS_anfang_02," ""Welcome To Dark Fraction Island Life!\n",
 \n,,
 "Change log is located at the top left of your map.""",,
 ,,
@@ -12,7 +12,7 @@ STRS_anfang_03,"Life Missions created by RP-Mods.
 
 \n
 \n
-With credit to: The TCG Development Team and KuTac Island Life's Community Owners. \n
+With credit to: The TCG Development Team and Dark Fraction Island Life's Community Owners. \n
 \n
 and \n
 \n
@@ -20,7 +20,7 @@ Thanks to and some addons by: Fuzzy, Ramiraz, LifeProjectRPG, RP-Mods, CityLife 
 ",
 ,,
 STRS_anfang_04,Players should NEVER run over anyone even if they are armed,
-STRS_anfang_05_civ,Please visit our website and create an account: www.kutactical.com,
+STRS_anfang_05_civ,Please visit our website and create an account: www.darkfraction.net,
 STRS_anfang_05_cop,Players MUST read the rules posted on the website,
 STRS_anfang_cop_loadout,,
 STRS_anfang_06,"Game guide, rules, Team Speak Info, and Changelog on the map tabs\n\nPlease play by the rules and in the spirit of the game\n\nHave fun!",
@@ -98,7 +98,7 @@ STRS_addaction_civmenu,Interaction %1 (%2),
 STRS_addaction_restrainciv,Restrain %1 (%2),
 STRS_action_hideoutowner,Show Hideout Owner,
 STRS_addaction_gildenmenu,Gang Menu,
-STRD_description_gildegruenden_hinweis," ""If you wish to make a company, Simple add initials at the end Example: KuTac Island Life""",
+STRD_description_gildegruenden_hinweis," ""If you wish to make a company, Simple add initials at the end Example: Dark Fraction Island Life""",
 STRD_description_gildeverwalten_sperren_submit," ""Update!""",
 STRD_description_gildeverwalten_sperren_header," ""Join allowed?""",
 STRS_addaction_removesperre,Remove Roadblock/Spikestrip,

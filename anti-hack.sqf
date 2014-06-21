@@ -1,6 +1,6 @@
 //if (isServer) exitWith {};
 
-hintc "Our TS IP: TS.KUTACTICAL.COM\nAll cops must be on Team Speak to play\nAll Cops must have a Taser on them\nRandom and Vehicle Death Match is a bannable offence\nDon't use Global voice ONLY type\nADMINS HAVE THE FINAL SAY\nAlso remember to role-play at all times.";
+hintc "Our TS IP: 5.39.93.223\nAll cops must be on Team Speak to play\nAll Cops must have a Taser on them\nRandom and Vehicle Death Match is a bannable offence\nDon't use Global voice ONLY type\nADMINS HAVE THE FINAL SAY\nAlso remember to role-play at all times.";
 hackerjustloggedin = false;
 
 sleep 5;//make em think they're in.
@@ -28,11 +28,11 @@ da_LEA = isClass(configFile >> "cfgPatches" >> "LEA");
 if (da_mando) then {
 	hackerjustloggedin = true;
 	publicvariable "hackerjustloggedin";
-	(format["server globalchat ""%1 IS USING MANDO! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;
+	(format["server globalchat ""%1 IS USING MANDO! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;
 	sleep 0.2;
-	(format["server globalchat ""%1 IS USING MANDO! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;
+	(format["server globalchat ""%1 IS USING MANDO! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;
 	sleep 0.2;
-	(format["server globalchat ""%1 IS USING MANDO! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;
+	(format["server globalchat ""%1 IS USING MANDO! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;
 	CheatInfo = [name vehicle player,"Mando",getPlayerUID player];
 	publicVariable "CheatInfo";
 	hintc "***ADDON DISALLOWED***\n\nMando Missile\n\nPlease disable this if you wish to play here.\n\nREASON: Undesired behavior";
@@ -45,11 +45,11 @@ if (da_mando) then {
 if (da_ACE) then {
 	hackerjustloggedin = true;
 	publicvariable "hackerjustloggedin";
-	(format["server globalchat ""%1 IS USING ACE! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;
+	(format["server globalchat ""%1 IS USING ACE! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;
 	sleep 0.2;
-	(format["server globalchat ""%1 IS USING ACE! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;
+	(format["server globalchat ""%1 IS USING ACE! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;
 	sleep 0.2;
-	(format["server globalchat ""%1 IS USING ACE! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;
+	(format["server globalchat ""%1 IS USING ACE! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;
 	CheatInfo = [name vehicle player,"ACE Mod",getPlayerUID player];
 	publicVariable "CheatInfo";
 	hintc "***ADDON DISALLOWED***\n\nACE\n\nPlease disable this if you wish to play here.\n\nREASON: Undesired behavior";
@@ -61,11 +61,11 @@ if (da_ACE) then {
 if (!(isnil "Smaker") or !(isnil "tracker") or !(isnil "hacks") or !(isnil "igodok") or !(isnil "infammook") or !(isnil "clExec_command")) then {
 	hackerjustloggedin = true;
 	publicvariable "hackerjustloggedin";
-	(format["server globalchat ""%1 IS USING MORKER HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;
+	(format["server globalchat ""%1 IS USING MORKER HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;
 	sleep 0.2;
-	(format["server globalchat ""%1 IS USING MORKER HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;
+	(format["server globalchat ""%1 IS USING MORKER HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;
 	sleep 0.2;
-	(format["server globalchat ""%1 IS USING MORKER HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;
+	(format["server globalchat ""%1 IS USING MORKER HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;
 	CheatInfo = [name vehicle player,"Morker",getPlayerUID player];
 	publicVariable "CheatInfo";
 	disableUserInput true;
@@ -78,11 +78,11 @@ if (!(isnil "Smaker") or !(isnil "tracker") or !(isnil "hacks") or !(isnil "igod
 if (!(isnil "Alex_DELETE_TOOL")) then {
 	hackerjustloggedin = true;
 	publicvariable "hackerjustloggedin";
-	(format["server globalchat ""%1 IS USING GALEX HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;
+	(format["server globalchat ""%1 IS USING GALEX HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;
 	sleep 0.2;
-	(format["server globalchat ""%1 IS USING GALEX HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;
+	(format["server globalchat ""%1 IS USING GALEX HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;
 	sleep 0.2;
-	(format["server globalchat ""%1 IS USING GALEX HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;
+	(format["server globalchat ""%1 IS USING GALEX HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;
 	CheatInfo = [name vehicle player,"GAlex",getPlayerUID player];
 	publicVariable "CheatInfo";
 	disableUserInput true;
@@ -95,11 +95,11 @@ if (!(isnil "Alex_DELETE_TOOL")) then {
 if ((da_lostkey) or !(isnil "LOKI_GUI_Key_Color")) then {
 	hackerjustloggedin = true;
 	publicvariable "hackerjustloggedin";
-	(format["server globalchat ""%1 IS USING LOKIS LOST HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;
+	(format["server globalchat ""%1 IS USING LOKIS LOST HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;
 	sleep 0.2;
-	(format["server globalchat ""%1 IS USING LOKIS LOST HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;
+	(format["server globalchat ""%1 IS USING LOKIS LOST HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;
 	sleep 0.2;
-	(format["server globalchat ""%1 IS USING LOKIS LOST HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;
+	(format["server globalchat ""%1 IS USING LOKIS LOST HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;
 	CheatInfo = [name vehicle player,"Las Nycklar",getPlayerUID player];
 	publicVariable "CheatInfo";
 	disableUserInput true;
@@ -112,11 +112,11 @@ if ((da_lostkey) or !(isnil "LOKI_GUI_Key_Color")) then {
 if (da_inkodisp) then {
 	hackerjustloggedin = true;
 	publicvariable "hackerjustloggedin";
-	(format["server globalchat ""%1 IS USING INKO! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;
+	(format["server globalchat ""%1 IS USING INKO! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;
 	sleep 0.2;
-	(format["server globalchat ""%1 IS USING INKO! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;
+	(format["server globalchat ""%1 IS USING INKO! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;
 	sleep 0.2;
-	(format["server globalchat ""%1 IS USING INKO! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;
+	(format["server globalchat ""%1 IS USING INKO! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;
 	CheatInfo = [name vehicle player,"INKO Disposable",getPlayerUID player];
 	publicVariable "CheatInfo";
 	hintc "***ADDON DISALLOWED***\n\nINKO Disposable\n\nPlease disable this if you wish to play here.\n\nREASON: ACE already does this, why are you running this addon?";
@@ -127,11 +127,11 @@ if (da_inkodisp) then {
 if (da_jtd) then {
 	hackerjustloggedin = true;
 	publicvariable "hackerjustloggedin";
-	(format["server globalchat ""%1 IS USING JTD! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;
+	(format["server globalchat ""%1 IS USING JTD! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;
 	sleep 0.2;
-	(format["server globalchat ""%1 IS USING JTD! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;
+	(format["server globalchat ""%1 IS USING JTD! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;
 	sleep 0.2;
-	(format["server globalchat ""%1 IS USING JTD! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;	
+	(format["server globalchat ""%1 IS USING JTD! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;	
 	CheatInfo = [name vehicle player,"JTD",getPlayerUID player];
 	publicVariable "CheatInfo";
 	hintc "***ADDON DISALLOWED***\n\nJTD Fire and Smoke\n\nPlease disable this if you wish to play here.\n\nREASON: Multiplayer unfriendly";
@@ -143,11 +143,11 @@ if (da_jtd) then {
 if (da_slx) then {
 	hackerjustloggedin = true;
 	publicvariable "hackerjustloggedin";
-	(format["server globalchat ""%1 IS USING SLX! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;
+	(format["server globalchat ""%1 IS USING SLX! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;
 	sleep 0.2;
-	(format["server globalchat ""%1 IS USING SLX! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;
+	(format["server globalchat ""%1 IS USING SLX! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;
 	sleep 0.2;
-	(format["server globalchat ""%1 IS USING SLX! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;	
+	(format["server globalchat ""%1 IS USING SLX! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;	
 	CheatInfo = [name vehicle player,"SLX",getPlayerUID player];
 	publicVariable "CheatInfo";
 	hintc "***ADDON DISALLOWED***\n\nSLX\n\nPlease disable this if you wish to play here.\n\nREASON: Multiplayer unfriendly";
@@ -166,11 +166,11 @@ if ((da_LEA) or !(isnil "LEA_Lock") or !(isnil "LEA_Lock") or !(isnil "enable_le
 	CheatInfo = [name vehicle player,"LEA Hacker",getPlayerUID player];
 	publicVariable "CheatInfo";
 	hintC "NICE TRY MOTHERFUCKER!";
-	(format["server globalchat ""%1 IS USING LEA HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;
+	(format["server globalchat ""%1 IS USING LEA HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;
 	sleep 0.2;
-	(format["server globalchat ""%1 IS USING LEA HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;
+	(format["server globalchat ""%1 IS USING LEA HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;
 	sleep 0.2;
-	(format["server globalchat ""%1 IS USING LEA HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;
+	(format["server globalchat ""%1 IS USING LEA HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;
 	endmission "end3";
 };
 
@@ -185,11 +185,11 @@ if (!(isnil "Logan__RE") or !(isnil "Scott_Joplin") or !(isnil "Lpiano") or !(is
 	CheatInfo = [name vehicle player,"NLZ Hacker",getPlayerUID player];
 	publicVariable "CheatInfo";
 	hintC "NICE TRY MOTHERFUCKER!";
-	(format["server globalchat ""%1 IS USING NLZ HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;
+	(format["server globalchat ""%1 IS USING NLZ HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;
 	sleep 0.2;
-	(format["server globalchat ""%1 IS USING NLZ HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;
+	(format["server globalchat ""%1 IS USING NLZ HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;
 	sleep 0.2;
-	(format["server globalchat ""%1 IS USING NLZ HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;
+	(format["server globalchat ""%1 IS USING NLZ HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;
 	endmission "end3";
 };
 
@@ -203,11 +203,11 @@ if (!(isnil "hacks") or !(isnil "pic") or !(isnil "firstrun") or !(isnil "frezok
 	CheatInfo = [name vehicle player,"Zeus Hacker",getPlayerUID player];
 	publicVariable "CheatInfo";
 	hintC "NICE TRY MOTHERFUCKER!";
-	(format["server globalchat ""%1 IS USING ZEUS HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;
+	(format["server globalchat ""%1 IS USING ZEUS HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;
 	sleep 0.2;
-	(format["server globalchat ""%1 IS USING ZEUS HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;
+	(format["server globalchat ""%1 IS USING ZEUS HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;
 	sleep 0.2;
-	(format["server globalchat ""%1 IS USING ZEUS HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;
+	(format["server globalchat ""%1 IS USING ZEUS HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;
 	endmission "end3";
 };
 
@@ -221,11 +221,11 @@ if (!(isnil "HMDIR") or !(isnil "MENUTITLE") or !(isnil "img") or !(isnil "first
 	CheatInfo = [name vehicle player,"DayZ V3 Hacker",getPlayerUID player];
 	publicVariable "CheatInfo";
 	hintC "NICE TRY MOTHERFUCKER!";
-	(format["server globalchat ""%1 IS USING DAYZ HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;
+	(format["server globalchat ""%1 IS USING DAYZ HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;
 	sleep 0.2;
-	(format["server globalchat ""%1 IS USING DAYZ HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;
+	(format["server globalchat ""%1 IS USING DAYZ HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;
 	sleep 0.2;
-	(format["server globalchat ""%1 IS USING DAYZ HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;
+	(format["server globalchat ""%1 IS USING DAYZ HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;
 	endmission "end3";
 };
 
@@ -239,11 +239,11 @@ if (!(isnil "scroll_m_init_star") or !(isnil "startmenu_star") or !(isnil "anoth
 	CheatInfo = [name vehicle player,"Infistar Hacker",getPlayerUID player];
 	publicVariable "CheatInfo";
 	hintC "NICE TRY MOTHERFUCKER!";
-	(format["server globalchat ""%1 IS USING INFISTAR HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;
+	(format["server globalchat ""%1 IS USING INFISTAR HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;
 	sleep 0.2;
-	(format["server globalchat ""%1 IS USING INFISTAR HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;
+	(format["server globalchat ""%1 IS USING INFISTAR HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;
 	sleep 0.2;
-	(format["server globalchat ""%1 IS USING INFISTAR HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: TS.KUTACTICAL.COM"";", name player]) call broadcast;
+	(format["server globalchat ""%1 IS USING INFISTAR HACKS! REPORT TO A MEMBER OF STAFF IMMIDIETLY!: 5.39.93.223"";", name player]) call broadcast;
 	endmission "end3";
 };
 
@@ -255,5 +255,5 @@ if (naughty) then {
 };
 
 if (!naughty) exitWith {
-	player sidechat "Welcome To KuTac Island Life!";
+	player sidechat "Welcome To Dark Fraction Island Life!";
 };

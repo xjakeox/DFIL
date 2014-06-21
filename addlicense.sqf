@@ -18,7 +18,7 @@ if (_art == "add") then
 	if (_license call INV_HasLicense) exitWith {player groupChat localize "STRS_inv_buylicense_alreadytrue";};
 	if (('Mishy' call INV_GetItemAmount) < _cost) exitWith {player groupChat localize "STRS_inv_buylicense_nomoney";};
 	if(_license == "car" or _license == "truck")then{demerits = 10};
-	if(_license == "oil" and !(_uid in donatorlevel1)) exitWith { player groupChat "This license is restricted to donors only, visit www.kutactical.com for more info."};
+	if(_license == "oil" and !(_uid in donatorlevel1)) exitWith { player groupChat "This license is restricted to donors only, visit www.darkfraction.net for more info."};
 	if(_license == "mayorlic" and !(ismayor)) exitWith { player groupChat "Restricted to Mayor"};
 	if(_license == "probator" and !(iscop)) exitWith { player groupChat "Restricted to Police"};
 	if(_license == "patrol_training" and !(iscop)) exitWith { player groupChat "Restricted to Police"};
