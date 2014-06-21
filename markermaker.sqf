@@ -71,4 +71,3 @@ if ((getplayerUID player) in superadmin) then
 	_marker setMarkerTypelocal "Mil_dot";
 	_marker setMarkerTextlocal "Staff Level: Super Administrator";
 };
-
