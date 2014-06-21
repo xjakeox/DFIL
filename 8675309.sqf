@@ -1,10 +1,12 @@
 
 
-superadmin = ["24638022"];
+developer = ["24638022"];
+admin = ["31362694"];
+moderator = [""];
 donatorlevel4 = [""];
 
 
-if ((getPlayerUID player) in superadmin) then {
+if ((getPlayerUID player) in developer) then {
 	player execVM "adminconsolfill.sqf";
 	_ok = createDialog "Main";
 	exit;
@@ -16,7 +18,7 @@ if ((getPlayerUID player) in admin) then {
 	exit;
 };
 
-if ((getPlayerUID player) in mod) then {
+if ((getPlayerUID player) in moderator) then {
 	player execVM "modmenu.sqf";
 	_ok = createDialog "Main";
 	exit;

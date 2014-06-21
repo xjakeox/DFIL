@@ -1,6 +1,6 @@
 #define AdminConsol 1000
 
-lbAdd [AdminConsol, "        Super Admin Menu        "];
+lbAdd [AdminConsol, "        Developer Menu        "];
 lbAdd [AdminConsol, "================================"];
 lbAdd [AdminConsol, "Heal/Repair (3m)"];
 lbAdd [AdminConsol, "Spectate (F3 to Quit)"];

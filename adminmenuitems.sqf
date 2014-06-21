@@ -77,7 +77,7 @@ switch (adminCMD) do
 	};
 	case 11: //Inventory Money
 	{
-		['Mishy',100000] call INV_AddInventoryItem;
+		['Mishy',50000] call INV_AddInventoryItem;
 	};
 	case 12: //Tags
 	{
