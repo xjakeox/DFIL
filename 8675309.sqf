@@ -1,7 +1,7 @@
 
 
 superadmin = ["24638022"];
-donatorlevel4 = ["37965510"];
+donatorlevel4 = [""];
 
 
 if ((getPlayerUID player) in superadmin) then {
