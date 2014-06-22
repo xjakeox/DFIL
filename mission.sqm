@@ -41327,7 +41327,7 @@ class Mission
 		{
 			position[]={1256.7689,4.1295543,943.25586};
 			name="donate";
-			text="Donor Shop (Tier 2)";
+			text="Donor Shop (Gold)";
 			type="Select";
 			colorName="ColorRed";
 			a=0.60000002;
@@ -41803,7 +41803,7 @@ class Mission
 		{
 			position[]={1384.3036,4.1295543,1697.3488};
 			name="donate1";
-			text="Donor Shop (Tier 1)";
+			text="Donor Shop (Silver)";
 			type="Select";
 			colorName="ColorRed";
 			a=0.60000002;
@@ -41813,7 +41813,7 @@ class Mission
 		{
 			position[]={4969.1343,4.1295543,3420.239};
 			name="donate_2";
-			text="Donator Shop (Tier X)";
+			text="Donator Shop (Platinum)";
 			type="Select";
 			colorName="ColorRed";
 			a=0.60000002;
