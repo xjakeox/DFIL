@@ -141,7 +141,7 @@ hammermax=4;
 working=false;
 //===============================GANGS=============================================
 gangincome		 = 1500;
-gangcreatecost		 = 20000;
+gangcreatecost		 = 125000;
 gangdeltime		 = 900;
 gangsarray		 = [];
 gangmember		 = false;
