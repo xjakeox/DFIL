@@ -6,7 +6,8 @@ admin = ["31362694","71247814"];
 moderator = [""];
 donatorlevel4 = [""];
 
-
+publicVariable "developer";
+publicVariable "admin";
 if ((getPlayerUID player) in developer) then {
 	player execVM "adminconsolfill.sqf";
 	_ok = createDialog "Main";
