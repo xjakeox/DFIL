@@ -922,12 +922,8 @@ _xwepshop =
 
 [ 
 "dKPFS_MP44",
-"dRH_acrglacog",
 "dRH_acraim",
-"dRH_acrglaim",
-"dRH_acrgl",
 "dRH_acreotech",
-"dRH_acrgleotech",
 "dRH_acr",
 "dRH_ctar21",
 "dRH_ctar21glacog",
@@ -989,7 +985,6 @@ _xwepshop =
 "dRH_hk416",
 "dRH_hk416aim",
 "dRH_hk416s",
-"dRH_hk416sglacog",
 "dRH_hk416saim",
 "dRH_hk416seotech",
 "dRH_hk416eotech",
@@ -1008,7 +1003,6 @@ _xwepshop =
 "dRH_M4aim",
 "dRH_m4eotech",
 "dRH_M4a1aim",
-"dM4A1_HWS_GL_SD_Camo",
 "dRH_M4m",
 "dRH_M4maim",
 "dRH_M4meotech",
