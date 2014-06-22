@@ -905,7 +905,6 @@ _topshotz =
 
 _pirategearshop =[
 "fishgun",
-"gnt_scubaw",
 "boatammo",
 "big_boat",
 "smallboat_1",
