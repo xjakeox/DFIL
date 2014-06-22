@@ -906,39 +906,16 @@ _topshotz =
 _pirategearshop =[
 "fishgun",
 "boatammo",
-"big_boat",
-"smallboat_1",
-"smallboat_2",
-"tcg_wave_red"
 ];
 
 _IRAvehicles =
 [
-"cl_fuel_mackr",
-"240GD"
 ];
 
 
 _IRAweapons = 
 
 [
-"IRAfal",
-"IRAar15",
-"IRAm16",
-"IRAak47",
-"IRAlee",
-"IRAHuntingRifle",
-"IRAG3A2",
-"IRAMP2",
-"30Rnd_556x45_Stanag",
-"30Rnd_762x39_AK47",
-"20Rnd_762x51_FNFAL",
-"20Rnd_762x51_DMR",
-"30Rnd_9x19_UZI",
-"x_303",
-"5Rnd_762x51_M24",
-"BAF_ied_v4"
-
 ];
 
 _xwepshop = 
