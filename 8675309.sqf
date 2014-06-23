@@ -1,8 +1,8 @@
 
 //            Viper
 developer = ["24638022"];
-//         Nate       Cradboard
-admin = ["31362694","71247814"];
+//         Nate       Cradboard   Dawn
+admin = ["31362694","71247814","28447878"];
 moderator = [""];
 donatorlevel4 = [""];
 
