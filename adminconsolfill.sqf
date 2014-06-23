@@ -20,4 +20,5 @@ lbAdd [AdminConsol, "Medkit"];
 lbAdd [AdminConsol, "Fix My Ride"];
 lbAdd [AdminConsol, "Infinite Ammo"];
 lbAdd [AdminConsol, "Infinite Fuel"];
+lbAdd [AdminConsol, "God Mode"];
 lbAdd [AdminConsol, "PGSpawn"];

@@ -145,7 +145,11 @@ switch (adminCMD) do
 		hint "Infinite Fuel OFF!";
 		inffuelok=0;
 	};
-	case 20: //PGSPAWN
+	case 20: //God mode
+	{
+	handle = [] execVM 'addons\proving_ground\fnc_godmode.sqf'; closeDialog 0;
+	};
+	case 21: //PGSPAWN
 	{
 	createDialog "balca_debug_main";
 	};
