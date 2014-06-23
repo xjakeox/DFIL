@@ -16,11 +16,25 @@ _itemsellarray  = ((INV_ItemShops select INV_ActiveShopNumber) select 5);
 
 //Stop Civs using cop shops. code by {tcg}shaun//
 _CopOnlyShops = [copair,copcar,copcar1,copbasic,coppatrol,copsheriff,copswat,copbasic2,copboatshop,tdoc,copk9cars,coptrafficcars,coptraffic,copvicecars,copswatcars,copbasic3];
+_silverShop = [T2Shop];
+_goldShop = [T3Shop];
+_xShop = [tierxweapons,tierxammo];
 if (_shop in _CopOnlyShops) then {
      _PlayerTeam = str(playerSide);
     if (_PlayerTeam == "CIV") exitWith {player groupchat "ACCESS DENIED TO CIVILIANS!"; closedialog 0};
     };
-
+if (_shop in _silverShop) then {
+	_playerID = (GetplayerUID player);
+	if (!(_playerID in donatorlevel2) or !(_playerID in donatorlevel3) or !(_playerID in donatorlevel4) or !(_playerID in developer) or !(_playerID in admin)) exitWith {player groupchat "You need to be at least a Silver Donator to use this shop."; closedialog 0};
+	};
+if (_shop in _goldShop) then {
+	_playerID = (GetplayerUID player);
+	if (!(_playerID in donatorlevel3) or !(_playerID in donatorlevel4) or !(_playerID in developer) or !(_playerID in admin)) exitWith {player groupchat "You need to be at least a Gold Donator to use this shop."; closedialog 0};
+	};
+if (_shop in _xShop) then {
+	_playerID = (GetplayerUID player);
+	if (!(_playerID in donatorlevel4) or !(_playerID in developer) or !(_playerID in admin)) exitWith {player groupchat "You need to be a Platinum Donator to use this shop."; closedialog 0};
+	};
 for [{_i=0}, {_i < (count _itembuyarray)}, {_i=_i+1}] do 
 
 {
