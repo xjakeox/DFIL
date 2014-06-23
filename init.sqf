@@ -119,18 +119,6 @@ publicvariable "gamerz971HDisLoveHeIsLife";
 	execVM "Scripts\statSave\saveLoop.sqf";
 };
 
-////////////////////////////////////////////////////////
-if(isServer) then
-{
-[] execVM "lifeserver\init.sqf";
-};
-
-if(!dedicatedserver) then
-{
-[] execVM "saver.sqf";
-[] execVM "loadclient.sqf";
-};
-
 // JayF8514's Welcome / Introduction!
 (format["server globalchat ""%1 Has Joined The Game! Welcome to Dark Fraction Island Life."";", name player]) call broadcast;
  
